@@ -1,25 +1,25 @@
 {
   "name": "vue-cli-plugin-vue-book",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "vue-cli to add vue-book",
+  "main": "index.js",
   "scripts": {
-    "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies": {
-    "vue": "^2.6.11",
-    "vue-class-component": "^7.2.3",
-    "vue-property-decorator": "^8.4.1"
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/untael/vue-cli-plugin-vue-book"
   },
-  "devDependencies": {
-    "@vue/cli-plugin-typescript": "^4.3.0",
-    "@vue/cli-service": "^4.3.0",
-    "typescript": "~3.8.3",
-    "vue-template-compiler": "^2.6.11"
+  "keywords": [
+    "vue-book",
+    "plugin",
+    "vue",
+    "cli"
+  ],
+  "author": "Pavel Mironow <pashamironow.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/untael/vue-cli-plugin-vue-book/issues"
   },
-  "browserslist": [
-    "> 1%",
-    "last 2 versions",
-    "not dead"
-  ]
+  "homepage": "https://github.com/untael/vue-cli-plugin-vue-book"
 }
