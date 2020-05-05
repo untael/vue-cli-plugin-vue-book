@@ -1,33 +1,15 @@
-const fs = require('fs')
-
 module.exports = (api, opts) => {
-  api.render('./book')
+  api.render('./template')
 
   const dependencies = {
-    "vue-book": '^0.1.0-alpha.31',
+    'vue-book': '*',
   }
 
-  api.registerCommand(
-    'serve:book',
-    {
-      description: 'serve',
-      usage: 'serve:book'
+  api.extendPackage({
+    dependencies,
+    scripts: {
+      'serve:book': 'vue-cli-service serve --modules-folder /src/apps/book/book-main.js',
+      'build:book': 'vue-cli-service build --modules-folder /src/apps/book/book-main.js',
     },
-    () => {
-      console.log('serve:book')
-    }
-
-  )
-  api.registerCommand(
-    'build:book',
-    {
-      description: 'build',
-      usage: 'build:book'
-    },
-    () => {
-      console.log('build:book')
-    }
-  )
-
-  api.extendPackage(dependencies)
+  })
 }

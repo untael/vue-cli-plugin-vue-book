@@ -1,5 +1,1 @@
-module.exports = (api, options) => {
-  api.chainWebpack(chain => {
-
-  })
-}
+module.exports = (api, options) => {}

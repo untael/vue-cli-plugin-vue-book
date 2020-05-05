@@ -1,14 +1,14 @@
 {
   "name": "vue-cli-plugin-vue-book",
   "version": "1.0.0",
-  "description": "vue-cli to add vue-book",
+  "description": "Vue-book plugin for Vue CLI v4+",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/untael/vue-cli-plugin-vue-book"
+    "url": "git+https://github.com/asvae/vue-book"
   },
   "keywords": [
     "vue-book",
@@ -16,10 +16,9 @@
     "vue",
     "cli"
   ],
-  "author": "Pavel Mironow <pashamironow.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/untael/vue-cli-plugin-vue-book/issues"
+    "url": "https://github.com/asvae/vue-book/issues"
   },
-  "homepage": "https://github.com/untael/vue-cli-plugin-vue-book"
+  "homepage": "https://github.com/asvae/vue-book#readme"
 }
