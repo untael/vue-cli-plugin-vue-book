@@ -1,29 +1,10 @@
 # vue-cli-plugin-vue-book
 
-## Project setup
-```
-yarn install
-```
+** Start using vue-book demos in 1 minute!**
 
-### Compiles and hot-reloads for development
-```
-yarn run serve
-```
+This is a vue-cli 4.x plugin to add Vue-book in your Vue project.
 
-### Compiles and minifies for production
-```
-yarn run build
-```
+## Features
 
-### Run your tests
-```
-yarn run test
-```
-
-### Lints and fixes files
-```
-yarn run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+- Automatically integrate [vue-book](https://github.com/asvae/vue-book) into your Vue app
+- Create <b>book</b> folder with needed files for comfortable using vue-book.
